@@ -4,8 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>レストラン詳細情報 - レストラン・レビュ・サイト</title>
-	<link rel="stylesheet" href="assets/css/detail.css" />
-	<script src="../assets/js/funx.js"></script>
+	<link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/detail.css" />
 </head>
 
 <body id="detail">
@@ -17,7 +17,7 @@
 			<h2>レストラン詳細</h2>
 			<table class="list">
 				<tr>
-					<td class="photo"><img width="110" alt="「レストラン さくら」の写真" src="./img/restaurant_7.jpg" /></td>
+					<td class="photo"><img width="110" alt="「レストラン さくら」の写真" src="../pages/img/restaurant_7.jpg" /></td>
 					<td class="info">
 						<dl>
 							<dt>レストラン さくら</dt>
@@ -53,8 +53,8 @@
 							<label for="1">1</label>
 							<input type="radio" name="point" value="2" id="2" />
 							<label for="2">2</label>
-							<input type="radio" name="point" value="3" id="3" />
-							<label for="3" checked>3</label>
+							<input type="radio" name="point" value="3" id="3" checked />
+							<label for="3">3</label>
 							<input type="radio" name="point" value="4" id="4" />
 							<label for="4">4</label>
 							<input type="radio" name="point" value="5" id="5" />
@@ -66,14 +66,13 @@
 						<td><textarea name="comment"></textarea></td>
 					</tr>
 				</table>
-				<input type="submit" value="送信" />
+				<input type="submit" value="投稿" />
 				<input type="reset" value="クリア" />
 			</form>
 		</article>
 	</main>
 	<footer>
-		<div id="copyright">(C) 2017-
-			<script>document.write(getCurrentYear());</script> Web Programmer Training Course</div>
+		<div id="copyright">(C) 2019 The Web System Development Course</div>
 	</footer>
 </body>
 
